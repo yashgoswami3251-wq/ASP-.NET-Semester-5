@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Hello.aspx" />
+    <Content Include="standard_control_demo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +81,14 @@
       <DependentUpon>Hello.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="standard_controller_demo.cs" />
+    <Compile Include="standard_control_demo.aspx.cs">
+      <DependentUpon>standard_control_demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="standard_control_demo.aspx.designer.cs">
+      <DependentUpon>standard_control_demo.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
