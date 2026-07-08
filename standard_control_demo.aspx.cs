@@ -63,7 +63,7 @@ namespace _5_Asp_Net
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-
+            Label6.Text = "City : "+ListBox1.SelectedItem.ToString();
         }
     }
 }
