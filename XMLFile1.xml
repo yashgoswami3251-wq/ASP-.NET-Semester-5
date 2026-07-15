@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
 <Advertisements>
 
 	<Ad>
-		<ImageUrl>~\img\lamborghini.png</ImageUrl>
+		<ImageUrl>~/img/lamborghini.png</ImageUrl>
 		<NavigateUrl>https://www.google.com</NavigateUrl>
-		<AlternateText></AlternateText>
-		<Impressions></Impressions>
-
+		<AlternateText>Lamborghini</AlternateText>
+		<Impressions>50</Impressions>
 	</Ad>
 
 	<Ad>
-		<ImageUrl>~\img\yash.png</ImageUrl>
+		<ImageUrl>~/img/yash.png</ImageUrl>
 		<NavigateUrl>https://www.google.com</NavigateUrl>
-		<AlternateText></AlternateText>
-		<Impressions></Impressions>
-
+		<AlternateText>Yash</AlternateText>
+		<Impressions>50</Impressions>
 	</Ad>
+
 </Advertisements>

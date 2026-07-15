@@ -6,74 +6,74 @@ namespace _5_Asp_Net
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                
-            }
-        }
-
-        protected void Timer1_Tick(object sender, EventArgs e)
-        {
-
-            //Display current time
-            Label1.Text = "Last Updated : " + DateTime.Now.ToLongTimeString();
-        }
-
-        protected void AdRotator1_AdCreated(object sender, System.Web.UI.WebControls.AdCreatedEventArgs e)
-        {
 
         }
 
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)
         {
-            Label2.Text = "Day of week :" + Calendar1.SelectedDate.DayOfWeek.ToString();
-            Label1.Text = "Your Selected Date :" + Calendar1.SelectedDate.ToString("dd-MM-yyyy");
+            Label1.Text = "Selected Date : " +
+                Calendar1.SelectedDate.ToString("dd-MM-yyyy");
+
+            Label2.Text = "Day : " +
+                Calendar1.SelectedDate.DayOfWeek.ToString();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
             if (MALE_BTN.Checked)
             {
-                Label3.Text = "Gender : MALE".ToString();
+                Label3.Text = "Gender : MALE";
             }
             else if (FEMALE_BTN.Checked)
             {
-                Label3.Text = "Gender : FEMALE".ToString();
+                Label3.Text = "Gender : FEMALE";
             }
             else
             {
-                Label3.Text = "SELECT Gender".ToString();
+                Label3.Text = "Please Select Gender";
             }
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            String Selected = "";
+            string selected = "";
             int total = 0;
 
             if (CheckBox1.Checked)
             {
-                Selected += "C , ";
+                selected += "C ";
                 total += 1000;
             }
+
             if (CheckBox2.Checked)
             {
-                Selected += "Java , ";
+                selected += "JAVA ";
                 total += 2000;
             }
+
             if (CheckBox3.Checked)
             {
-                Selected += "Python , ";
+                selected += "Python ";
                 total += 3000;
             }
 
-            Label4.Text = "You Selected : " + Selected;
-            Label5.Text = "Total cost :" + total;
+            Label4.Text = "Selected Course : " + selected;
+            Label5.Text = "Total Cost : " + total;
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            Label6.Text = "City : " + ListBox1.SelectedItem.ToString();
+            Label6.Text = "City : " + ListBox1.SelectedItem.Text;
+        }
+
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            // Refresh AdRotator
+            AdRotator1.DataBind();
+
+            // Show last update time
+            lblTime.Text = "Last Updated : " +
+                DateTime.Now.ToLongTimeString();
         }
     }
 }
