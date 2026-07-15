@@ -1,15 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace _5_Asp_Net
 {
     public partial class standard_control_demo : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                
+            }
+        }
+
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+
+            //Display current time
+            Label1.Text = "Last Updated : " + DateTime.Now.ToLongTimeString();
+        }
+
+        protected void AdRotator1_AdCreated(object sender, System.Web.UI.WebControls.AdCreatedEventArgs e)
         {
 
         }
@@ -63,7 +73,7 @@ namespace _5_Asp_Net
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            Label6.Text = "City : "+ListBox1.SelectedItem.ToString();
+            Label6.Text = "City : " + ListBox1.SelectedItem.ToString();
         }
     }
 }
