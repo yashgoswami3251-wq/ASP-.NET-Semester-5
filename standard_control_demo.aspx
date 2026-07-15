@@ -71,6 +71,11 @@
             <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
 
 
+            <br />
+            <br />
+            <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/XMLFile1.xml" Height="500px" Width="500px" />
+
+
         </div>
     </form>
 </body>

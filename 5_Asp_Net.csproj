@@ -69,10 +69,13 @@
   <ItemGroup>
     <Content Include="form.aspx" />
     <Content Include="Hello.aspx" />
+    <Content Include="img\lamborghini.png" />
+    <Content Include="img\yash.png" />
     <Content Include="registration.aspx" />
     <Content Include="standard_control_demo.aspx" />
     <Content Include="validationdemo.aspx" />
     <Content Include="Web.config" />
+    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="first.cs" />
