@@ -134,18 +134,26 @@
                         ForeColor="Red"></asp:Label>
 
                     <!-- Timer -->
-                    <asp:Timer
-                        ID="Timer1"
-                        runat="server"
-                        Interval="3000"
-                        OnTick="Timer1_Tick">
-                    </asp:Timer>
+                    <br />
 
                 </ContentTemplate>
 
             </asp:UpdatePanel>
 
+
+
         </div>
+
+        <p>
+            <br />
+            <asp:FileUpload ID="FileUpload1" runat="server" />
+            <br />
+            <br />
+            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Button" />
+            <br />
+            <br />
+            <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
+        </p>
 
     </form>
 </body>

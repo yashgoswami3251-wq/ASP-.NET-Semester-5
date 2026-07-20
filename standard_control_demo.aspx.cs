@@ -75,5 +75,25 @@ namespace _5_Asp_Net
             lblTime.Text = "Last Updated : " +
                 DateTime.Now.ToLongTimeString();
         }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            //string file_name = System.IO.Path.GetFileName(FileUpload1.PostedFile.FileName);
+            //FileUpload1.SaveAs(Server.MapPath("~/img/") + file_name);
+            //Label7.Text = "File Uploaded Successfully";
+
+
+            if (FileUpload1.HasFile)
+            {
+                string path = Server.MapPath("~/img/");
+                string filename = FileUpload1.FileName;
+                FileUpload1.SaveAs(path + filename);
+                Label7.Text = "File Uploaded Successfully";
+            }
+            else
+            {
+                Label7.Text = "Please select a file to upload.";
+            }
+        }
     }
 }
