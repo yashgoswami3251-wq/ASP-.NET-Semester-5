@@ -3,14 +3,14 @@
 <Advertisements>
 
 	<Ad>
-		<ImageUrl>~/img/lamborghini.png</ImageUrl>
+		<ImageUrl>~/img/yash.png</ImageUrl>
 		<NavigateUrl>https://www.google.com</NavigateUrl>
 		<AlternateText>Lamborghini</AlternateText>
 		<Impressions>50</Impressions>
 	</Ad>
 
 	<Ad>
-		<ImageUrl>~/img/yash.png</ImageUrl>
+		<ImageUrl>~/img/lamborghini.png</ImageUrl>
 		<NavigateUrl>https://www.google.com</NavigateUrl>
 		<AlternateText>Yash</AlternateText>
 		<Impressions>50</Impressions>

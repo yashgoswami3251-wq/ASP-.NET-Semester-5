@@ -11,7 +11,7 @@ namespace _5_Asp_Net
 {
 
 
-    public partial class validationdemo
+    public partial class validationdem
     {
 
         /// <summary>
@@ -131,7 +131,7 @@ namespace _5_Asp_Net
         /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
 
-        /// <summary>
+        /// <summary>   
         /// Label5 control.
         /// </summary>
         /// <remarks>

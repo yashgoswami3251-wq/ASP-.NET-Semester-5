@@ -38,7 +38,7 @@
             <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="Enetr valid number" ForeColor="Red" ValidationExpression="\d{10}" ControlToValidate="TextBox4"></asp:RegularExpressionValidator>
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Register" />
+            <asp:Button ID="Button1" runat="server" Text="Register" OnClick="Button1_Click" />
             <br />
 
         </div>
