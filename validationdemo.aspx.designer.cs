@@ -11,7 +11,7 @@ namespace _5_Asp_Net
 {
 
 
-    public partial class validationdem
+    public partial class validationdemo
     {
 
         /// <summary>
@@ -33,13 +33,13 @@ namespace _5_Asp_Net
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// TextBox1 control.
+        /// nametxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox nametxt;
 
         /// <summary>
         /// RequiredFieldValidator1 control.
@@ -60,13 +60,13 @@ namespace _5_Asp_Net
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// TextBox2 control.
+        /// PasswordTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox PasswordTxt;
 
         /// <summary>
         /// RequiredFieldValidator2 control.
@@ -87,13 +87,13 @@ namespace _5_Asp_Net
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// TextBox5 control.
+        /// ConfirmTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox ConfirmTxt;
 
         /// <summary>
         /// CompareValidator1 control.
@@ -114,13 +114,13 @@ namespace _5_Asp_Net
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// TextBox4 control.
+        /// EmailTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox EmailTxt;
 
         /// <summary>
         /// RegularExpressionValidator1 control.
@@ -131,7 +131,7 @@ namespace _5_Asp_Net
         /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
 
-        /// <summary>   
+        /// <summary>
         /// Label5 control.
         /// </summary>
         /// <remarks>
@@ -141,13 +141,13 @@ namespace _5_Asp_Net
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// TextBox3 control.
+        /// ContactTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox ContactTxt;
 
         /// <summary>
         /// RegularExpressionValidator2 control.
